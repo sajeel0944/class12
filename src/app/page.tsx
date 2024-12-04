@@ -100,11 +100,11 @@ export default function Home() {
           </h1>
           <Butt
             name="Lets Go"
-            ty="w-[219px] h-16 mt-6 [@media(max-width:580px)]:w-[190px] [@media(max-width:535px)]:mt-2"
+            ty="w-[219px] h-16 mt-6 [@media(max-width:580px)]:w-[190px] [@media(max-width:535px)]:mt-2 "
           />
         </div>
 
-        <div className="w-[55%] h-[449px]  bg-[#C4DEFD] [@media(max-width:1025px)]:h-[400px] [@media(max-width:535px)]:-mt-20 [@media(max-width:535px)]:w-full"></div>
+        <div className="w-[55%] h-[449px]  bg-[#C4DEFD] [@media(max-width:1025px)]:h-[400px] [@media(max-width:535px)]:-mt-12 [@media(max-width:535px)]:w-full"></div>
       </div>
 
       <div className="w-full h-[609px] px-[119px] flex gap-9 items-center [@media(max-width:1025px)]:h-[490px] [@media(max-width:1025px)]:px-12 [@media(max-width:535px)]:flex-col [@media(max-width:535px)]:h-[670px] [@media(max-width:535px)]:px-4">

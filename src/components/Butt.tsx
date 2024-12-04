@@ -1,3 +1,4 @@
+import Image from "next/image"
  type bt={
     name?:string;
     ty?:string;
@@ -7,7 +8,7 @@
     return(
         <>
             <button className={`${props.ty} rounded-lg  bg-[#4F9CF9] text-white`}>
-                <h1 className="font-medium text-base">{props.name}<span className="pl-3">-></span></h1>
+                <h1 className="font-medium text-base flex items-center justify-center">{props.name}<span className="pl-3 "><Image src={"/picture/arrow.png"} alt="" width={20} height={10}/></span></h1>
 
             </button>
         </>
